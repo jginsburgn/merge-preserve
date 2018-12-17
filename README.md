@@ -28,3 +28,9 @@ First specify the glob pattern and then say that it should use this driver.
 ```
 
 Done, now `git merge` will preserve all files ending in `.git` in the current branch.
+
+## References
+
+1. Christophe Porteneuve's [article][1] on Medium.
+
+[1]: https://medium.com/@porteneuve/how-to-make-git-preserve-specific-files-while-merging-18c92343826b
