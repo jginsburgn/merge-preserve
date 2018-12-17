@@ -15,7 +15,7 @@ ln -s $PWD/preserve.sh /usr/local/bin
 Tell git that the preserve driver exists.
 
 ```bash
-git config --local merge.preserve.driver preserve.sh %O %A %B %L %P
+git config --local merge.preserve.driver "preserve.sh %O %A %B %L %P"
 git config --local merge.preserve.name preserve
 ```
 
